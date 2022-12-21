@@ -1,6 +1,6 @@
 # COMMON JAVASCRIPT BITS
 
-# Declaring a variable in JavaScript:
+## Declaring a variable in JavaScript:
 
 The var keyword is used to declare a variable in JavaScript. The let keyword was introduced in ECMAScript 6 (ES6) and is used to declare a block-scoped variable. The const keyword is also introduced in ES6 and is used to declare a read-only variable.
 
@@ -13,7 +13,7 @@ The var keyword is used to declare a variable in JavaScript. The let keyword was
     // Declaring a variable using the const keyword
     const myVariable;
 
-# Creating a function in JavaScript:
+## Creating a function in JavaScript:
 
 There are several ways to declare a function in JavaScript. The first example shows the traditional way of declaring a function using the function keyword. The second example shows a function expression, where a function is assigned to a variable. The third example shows an arrow function, which is a concise way of defining a function.
 
@@ -32,7 +32,7 @@ There are several ways to declare a function in JavaScript. The first example sh
     // function body
     };
 
-# Using loops in JavaScript:
+## Using loops in JavaScript:
 
 There are several types of loops in JavaScript that you can use to execute a block of code multiple times. The for loop is used to iterate over a range of values. The while loop is used to repeat a block of code while a certain condition is true. The do-while loop is similar to the while loop, but it always executes the block of code at least once before checking the condition.
 
@@ -55,8 +55,7 @@ There are several types of loops in JavaScript that you can use to execute a blo
     i++;
     } while (i < 5);
 
-
-//Using conditional statements in JavaScript:
+## Using conditional statements in JavaScript:
 
     const x = 10;
 
@@ -93,7 +92,7 @@ There are several types of loops in JavaScript that you can use to execute a blo
         console.log("x is something else");
     }
 
-# Handling events in JavaScript:
+## Handling events in JavaScript:
 
 In JavaScript, you can use the addEventListener method or the onclick property to attach an event listener to an element. An event listener is a function that is called when a specific event, such as a click event, occurs on an element.
 
@@ -109,7 +108,7 @@ In JavaScript, you can use the addEventListener method or the onclick property t
     console.log("Button was clicked!");
     };
 
-# How do I access and manipulate the DOM in JavaScript?
+## How do I access and manipulate the DOM in JavaScript?
 
 To access and manipulate the Document Object Model (DOM) in JavaScript, you can use the document object and various methods and properties it provides. For example, you can use the getElementById method to access an element with a specific ID, and then use the innerHTML property to modify its content.
 
@@ -143,7 +142,7 @@ You can also use the querySelector and querySelectorAll methods to access elemen
 
 There are many other methods and properties available for accessing and manipulating the DOM, such as classList, style, setAttribute, and addEventListener. You can find more information in the documentation for the document object: https://developer.mozilla.org/en-US/docs/Web/API/Document
 
-# How do I handle errors and exceptions in JavaScript?
+## How do I handle errors and exceptions in JavaScript?
 
 To handle errors and exceptions in JavaScript, you can use the try and catch statements. The try statement allows you to specify a block of code that might throw an error, and the catch statement allows you to handle the error if it occurs. For example:
 
@@ -183,9 +182,9 @@ In addition to the try and catch statements, you can also use the throw statemen
     console.log(error);
     }
   
-For more information, you can check out the documentation for the try and catch statements:
+For more information, you can check out the documentation for the try and catch statements: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
 
-# How do I use objects and arrays in JavaScript?
+## How do I use objects and arrays in JavaScript?
 
 Objects in JavaScript are a collection of key-value pairs. You can create an object using the object literal syntax, like this:
 
@@ -216,7 +215,7 @@ You can access the values of an array using index notation. For example:
 
 You can also use array methods like push, pop, shift, and unshift to add and remove elements from the beginning or end of an array.
 
-# How do I use regular expressions in JavaScript?
+## How do I use regular expressions in JavaScript?
 
 Regular expressions are patterns used to match character combinations in strings. You can create a regular expression in JavaScript using the RegExp constructor or the regular expression literal syntax, like this:
 
@@ -239,7 +238,7 @@ You can also use special characters in regular expressions to match certain type
     const regex4 = /\w/; // Match any word character (alphanumeric)
     const regex5 = /\s/; // Match any whitespace character
 
-# How do I use the fetch API to make HTTP requests in JavaScript?
+## How do I use the fetch API to make HTTP requests in JavaScript?
 
 The fetch API is a modern way to make HTTP requests in JavaScript. You can use it to send GET, POST, PUT, DELETE, and other types of requests.
 
